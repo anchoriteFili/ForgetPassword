@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB813A41F38058E00C00F6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB813A31F38058E00C00F6C /* main.m */; };
+		FAB813A71F38058E00C00F6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB813A61F38058E00C00F6C /* AppDelegate.m */; };
+		FAB813AA1F38058E00C00F6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB813A91F38058E00C00F6C /* ViewController.m */; };
+		FAB813AD1F38058E00C00F6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB813AB1F38058E00C00F6C /* Main.storyboard */; };
+		FAB813AF1F38058E00C00F6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB813AE1F38058E00C00F6C /* Assets.xcassets */; };
+		FAB813B21F38058E00C00F6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB813B01F38058E00C00F6C /* LaunchScreen.storyboard */; };
+		FAB813BD1F38058F00C00F6C /* ForgetPasswordTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB813BC1F38058F00C00F6C /* ForgetPasswordTestTests.m */; };
+		FAB813C81F38058F00C00F6C /* ForgetPasswordTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB813C71F38058F00C00F6C /* ForgetPasswordTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAB813B91F38058F00C00F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB813971F38058E00C00F6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB8139E1F38058E00C00F6C;
+			remoteInfo = ForgetPasswordTest;
+		};
+		FAB813C41F38058F00C00F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB813971F38058E00C00F6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB8139E1F38058E00C00F6C;
+			remoteInfo = ForgetPasswordTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAB8139F1F38058E00C00F6C /* ForgetPasswordTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForgetPasswordTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB813A31F38058E00C00F6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAB813A51F38058E00C00F6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAB813A61F38058E00C00F6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAB813A81F38058E00C00F6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAB813A91F38058E00C00F6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAB813AC1F38058E00C00F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB813AE1F38058E00C00F6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB813B11F38058E00C00F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAB813B31F38058E00C00F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB813B81F38058F00C00F6C /* ForgetPasswordTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForgetPasswordTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB813BC1F38058F00C00F6C /* ForgetPasswordTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordTestTests.m; sourceTree = "<group>"; };
+		FAB813BE1F38058F00C00F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB813C31F38058F00C00F6C /* ForgetPasswordTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForgetPasswordTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB813C71F38058F00C00F6C /* ForgetPasswordTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordTestUITests.m; sourceTree = "<group>"; };
+		FAB813C91F38058F00C00F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB8139C1F38058E00C00F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB813B51F38058F00C00F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB813C01F38058F00C00F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB813961F38058E00C00F6C = {
+			isa = PBXGroup;
+			children = (
+				FAB813A11F38058E00C00F6C /* ForgetPasswordTest */,
+				FAB813BB1F38058F00C00F6C /* ForgetPasswordTestTests */,
+				FAB813C61F38058F00C00F6C /* ForgetPasswordTestUITests */,
+				FAB813A01F38058E00C00F6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB813A01F38058E00C00F6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8139F1F38058E00C00F6C /* ForgetPasswordTest.app */,
+				FAB813B81F38058F00C00F6C /* ForgetPasswordTestTests.xctest */,
+				FAB813C31F38058F00C00F6C /* ForgetPasswordTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB813A11F38058E00C00F6C /* ForgetPasswordTest */ = {
+			isa = PBXGroup;
+			children = (
+				FAB813A51F38058E00C00F6C /* AppDelegate.h */,
+				FAB813A61F38058E00C00F6C /* AppDelegate.m */,
+				FAB813A81F38058E00C00F6C /* ViewController.h */,
+				FAB813A91F38058E00C00F6C /* ViewController.m */,
+				FAB813AB1F38058E00C00F6C /* Main.storyboard */,
+				FAB813AE1F38058E00C00F6C /* Assets.xcassets */,
+				FAB813B01F38058E00C00F6C /* LaunchScreen.storyboard */,
+				FAB813B31F38058E00C00F6C /* Info.plist */,
+				FAB813A21F38058E00C00F6C /* Supporting Files */,
+			);
+			path = ForgetPasswordTest;
+			sourceTree = "<group>";
+		};
+		FAB813A21F38058E00C00F6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB813A31F38058E00C00F6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAB813BB1F38058F00C00F6C /* ForgetPasswordTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB813BC1F38058F00C00F6C /* ForgetPasswordTestTests.m */,
+				FAB813BE1F38058F00C00F6C /* Info.plist */,
+			);
+			path = ForgetPasswordTestTests;
+			sourceTree = "<group>";
+		};
+		FAB813C61F38058F00C00F6C /* ForgetPasswordTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB813C71F38058F00C00F6C /* ForgetPasswordTestUITests.m */,
+				FAB813C91F38058F00C00F6C /* Info.plist */,
+			);
+			path = ForgetPasswordTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB8139E1F38058E00C00F6C /* ForgetPasswordTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB813CC1F38058F00C00F6C /* Build configuration list for PBXNativeTarget "ForgetPasswordTest" */;
+			buildPhases = (
+				FAB8139B1F38058E00C00F6C /* Sources */,
+				FAB8139C1F38058E00C00F6C /* Frameworks */,
+				FAB8139D1F38058E00C00F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForgetPasswordTest;
+			productName = ForgetPasswordTest;
+			productReference = FAB8139F1F38058E00C00F6C /* ForgetPasswordTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAB813B71F38058F00C00F6C /* ForgetPasswordTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB813CF1F38058F00C00F6C /* Build configuration list for PBXNativeTarget "ForgetPasswordTestTests" */;
+			buildPhases = (
+				FAB813B41F38058F00C00F6C /* Sources */,
+				FAB813B51F38058F00C00F6C /* Frameworks */,
+				FAB813B61F38058F00C00F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB813BA1F38058F00C00F6C /* PBXTargetDependency */,
+			);
+			name = ForgetPasswordTestTests;
+			productName = ForgetPasswordTestTests;
+			productReference = FAB813B81F38058F00C00F6C /* ForgetPasswordTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAB813C21F38058F00C00F6C /* ForgetPasswordTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB813D21F38058F00C00F6C /* Build configuration list for PBXNativeTarget "ForgetPasswordTestUITests" */;
+			buildPhases = (
+				FAB813BF1F38058F00C00F6C /* Sources */,
+				FAB813C01F38058F00C00F6C /* Frameworks */,
+				FAB813C11F38058F00C00F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB813C51F38058F00C00F6C /* PBXTargetDependency */,
+			);
+			name = ForgetPasswordTestUITests;
+			productName = ForgetPasswordTestUITests;
+			productReference = FAB813C31F38058F00C00F6C /* ForgetPasswordTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB813971F38058E00C00F6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "赵宏亚";
+				TargetAttributes = {
+					FAB8139E1F38058E00C00F6C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					FAB813B71F38058F00C00F6C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAB8139E1F38058E00C00F6C;
+					};
+					FAB813C21F38058F00C00F6C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAB8139E1F38058E00C00F6C;
+					};
+				};
+			};
+			buildConfigurationList = FAB8139A1F38058E00C00F6C /* Build configuration list for PBXProject "ForgetPasswordTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB813961F38058E00C00F6C;
+			productRefGroup = FAB813A01F38058E00C00F6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB8139E1F38058E00C00F6C /* ForgetPasswordTest */,
+				FAB813B71F38058F00C00F6C /* ForgetPasswordTestTests */,
+				FAB813C21F38058F00C00F6C /* ForgetPasswordTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB8139D1F38058E00C00F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB813B21F38058E00C00F6C /* LaunchScreen.storyboard in Resources */,
+				FAB813AF1F38058E00C00F6C /* Assets.xcassets in Resources */,
+				FAB813AD1F38058E00C00F6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB813B61F38058F00C00F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB813C11F38058F00C00F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB8139B1F38058E00C00F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB813AA1F38058E00C00F6C /* ViewController.m in Sources */,
+				FAB813A71F38058E00C00F6C /* AppDelegate.m in Sources */,
+				FAB813A41F38058E00C00F6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB813B41F38058F00C00F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB813BD1F38058F00C00F6C /* ForgetPasswordTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB813BF1F38058F00C00F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB813C81F38058F00C00F6C /* ForgetPasswordTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAB813BA1F38058F00C00F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB8139E1F38058E00C00F6C /* ForgetPasswordTest */;
+			targetProxy = FAB813B91F38058F00C00F6C /* PBXContainerItemProxy */;
+		};
+		FAB813C51F38058F00C00F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB8139E1F38058E00C00F6C /* ForgetPasswordTest */;
+			targetProxy = FAB813C41F38058F00C00F6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAB813AB1F38058E00C00F6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB813AC1F38058E00C00F6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB813B01F38058E00C00F6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB813B11F38058E00C00F6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB813CA1F38058F00C00F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB813CB1F38058F00C00F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB813CD1F38058F00C00F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForgetPasswordTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvyouquan.ForgetPasswordTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAB813CE1F38058F00C00F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForgetPasswordTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvyouquan.ForgetPasswordTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAB813D01F38058F00C00F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ForgetPasswordTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvyouquan.ForgetPasswordTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForgetPasswordTest.app/ForgetPasswordTest";
+			};
+			name = Debug;
+		};
+		FAB813D11F38058F00C00F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ForgetPasswordTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvyouquan.ForgetPasswordTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForgetPasswordTest.app/ForgetPasswordTest";
+			};
+			name = Release;
+		};
+		FAB813D31F38058F00C00F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ForgetPasswordTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvyouquan.ForgetPasswordTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ForgetPasswordTest;
+			};
+			name = Debug;
+		};
+		FAB813D41F38058F00C00F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ForgetPasswordTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvyouquan.ForgetPasswordTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ForgetPasswordTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB8139A1F38058E00C00F6C /* Build configuration list for PBXProject "ForgetPasswordTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB813CA1F38058F00C00F6C /* Debug */,
+				FAB813CB1F38058F00C00F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB813CC1F38058F00C00F6C /* Build configuration list for PBXNativeTarget "ForgetPasswordTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB813CD1F38058F00C00F6C /* Debug */,
+				FAB813CE1F38058F00C00F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAB813CF1F38058F00C00F6C /* Build configuration list for PBXNativeTarget "ForgetPasswordTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB813D01F38058F00C00F6C /* Debug */,
+				FAB813D11F38058F00C00F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAB813D21F38058F00C00F6C /* Build configuration list for PBXNativeTarget "ForgetPasswordTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB813D31F38058F00C00F6C /* Debug */,
+				FAB813D41F38058F00C00F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB813971F38058E00C00F6C /* Project object */;
+}
