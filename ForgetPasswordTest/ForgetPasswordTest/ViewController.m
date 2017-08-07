@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ForgetPasswordVC.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"ForgetPasswordStoryboard" bundle:nil];
+    
+    ForgetPasswordVC *forgetPassword = [storyboard instantiateViewControllerWithIdentifier:@"ForgetPasswordVC"];
+    [self.navigationController pushViewController:forgetPassword animated:YES];
 }
 
 

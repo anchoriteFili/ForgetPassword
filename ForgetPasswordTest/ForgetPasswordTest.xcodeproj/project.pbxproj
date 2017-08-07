@@ -15,6 +15,8 @@
 		FAB813B21F38058E00C00F6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB813B01F38058E00C00F6C /* LaunchScreen.storyboard */; };
 		FAB813BD1F38058F00C00F6C /* ForgetPasswordTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB813BC1F38058F00C00F6C /* ForgetPasswordTestTests.m */; };
 		FAB813C81F38058F00C00F6C /* ForgetPasswordTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB813C71F38058F00C00F6C /* ForgetPasswordTestUITests.m */; };
+		FAB813DB1F38118400C00F6C /* ForgetPasswordStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB813DA1F38118400C00F6C /* ForgetPasswordStoryboard.storyboard */; };
+		FAB813DE1F3811B200C00F6C /* ForgetPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB813DD1F3811B200C00F6C /* ForgetPasswordVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		FAB813C31F38058F00C00F6C /* ForgetPasswordTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForgetPasswordTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB813C71F38058F00C00F6C /* ForgetPasswordTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordTestUITests.m; sourceTree = "<group>"; };
 		FAB813C91F38058F00C00F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB813DA1F38118400C00F6C /* ForgetPasswordStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ForgetPasswordStoryboard.storyboard; sourceTree = "<group>"; };
+		FAB813DC1F3811B200C00F6C /* ForgetPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordVC.h; sourceTree = "<group>"; };
+		FAB813DD1F3811B200C00F6C /* ForgetPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				FAB813A61F38058E00C00F6C /* AppDelegate.m */,
 				FAB813A81F38058E00C00F6C /* ViewController.h */,
 				FAB813A91F38058E00C00F6C /* ViewController.m */,
+				FAB813DC1F3811B200C00F6C /* ForgetPasswordVC.h */,
+				FAB813DD1F3811B200C00F6C /* ForgetPasswordVC.m */,
+				FAB813DA1F38118400C00F6C /* ForgetPasswordStoryboard.storyboard */,
 				FAB813AB1F38058E00C00F6C /* Main.storyboard */,
 				FAB813AE1F38058E00C00F6C /* Assets.xcassets */,
 				FAB813B01F38058E00C00F6C /* LaunchScreen.storyboard */,
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB813B21F38058E00C00F6C /* LaunchScreen.storyboard in Resources */,
+				FAB813DB1F38118400C00F6C /* ForgetPasswordStoryboard.storyboard in Resources */,
 				FAB813AF1F38058E00C00F6C /* Assets.xcassets in Resources */,
 				FAB813AD1F38058E00C00F6C /* Main.storyboard in Resources */,
 			);
@@ -273,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB813DE1F3811B200C00F6C /* ForgetPasswordVC.m in Sources */,
 				FAB813AA1F38058E00C00F6C /* ViewController.m in Sources */,
 				FAB813A71F38058E00C00F6C /* AppDelegate.m in Sources */,
 				FAB813A41F38058E00C00F6C /* main.m in Sources */,
@@ -509,6 +519,7 @@
 				FAB813CE1F38058F00C00F6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAB813CF1F38058F00C00F6C /* Build configuration list for PBXNativeTarget "ForgetPasswordTestTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +528,7 @@
 				FAB813D11F38058F00C00F6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAB813D21F38058F00C00F6C /* Build configuration list for PBXNativeTarget "ForgetPasswordTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +537,7 @@
 				FAB813D41F38058F00C00F6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
